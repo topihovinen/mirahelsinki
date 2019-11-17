@@ -12,7 +12,7 @@ This is the main R-file used. It contains most of the statistical analysis and t
 
 # p.values.adjusted.RData
 
-As running the permutation tests may be time consuming, here are the p-values calculated during our study, if one wishes to run other parts of code that requires the p-values (e.g. plotting significancy stars with permira.test.gg)
+As running the permutation tests may be time consuming, here are the Benjamini-Hochberg adjusted p-values calculated during our study, if one wishes to run other parts of code that requires the p-values (e.g. plotting significancy stars with permira.test.gg)
 
 # WHO_MUAC_z-scores_(...).txt
 
