@@ -10,7 +10,7 @@ This is the main R-file used. It contains the statistical analysis of blood and 
 
 *thl_kasvukayrat.txt*: The original data of Finnish growth curves were provided for the scientific purposes of this study, and as we do not own the rights for this data, please contact THL (Terveyden ja Hyvinvoinnin Laitos) in order to gain permission for this data.
 
-### permira.test.R
+### permira.test.R - Permutation test functions
 
 The source code for functions ``permira.test`` and ``permira.test.gg``. The former is the actual permutation test algorithm and the latter is a dirty ad-hoc plug-in for ggplot to plot p-values from ``permira.test`` in ggplot with the ``geom_signif`` -function.
 
