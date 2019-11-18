@@ -2,7 +2,7 @@
 
 This page will contain R code used in statistical analyses and building the figures of MIRA Helsinki -study. You may contact the main author of the code via email: _topi.hovinen@helsinki.fi_
 
-## mira_statistics_figures.R - Main code
+## mira_statistics_figures.r - Main code
 
 This is the main R-file used. It contains the statistical analysis of blood and urine samples and the code to create figures/ggplots. Please note, that some of the files required for running the code smoothly are missing here. Please contact the author or otherwise specified instance below if you wish to use these files:
 
@@ -10,7 +10,7 @@ This is the main R-file used. It contains the statistical analysis of blood and 
 
 *thl_kasvukayrat.txt*: The original data of Finnish growth curves were provided for the scientific purposes of this study, and as we do not own the rights for this data, please contact THL (Terveyden ja Hyvinvoinnin Laitos) in order to gain permission for this data.
 
-### permira.test.R - Permutation test functions
+### permira.test.r - Permutation test functions
 
 The source code for functions ``permira.test`` and ``permira.test.gg``. The former is the actual permutation test algorithm and the latter is a dirty ad-hoc plug-in for ggplot to plot p-values from ``permira.test`` in ggplot with the ``geom_signif`` -function.
 
@@ -22,13 +22,13 @@ As running the permutation tests may be time consuming, here are the Benjamini-H
 
 WHO tables for Mid-Upper Arm Circumference (MUAC) z-scores and extensions by Mramba et al. used in this study for reference.
 
-## mira_nutrients_analysis.R - Code for nutrient intake analysis
+## mira_nutrients_analysis.r - Code for nutrient intake analysis
 
 This contains the statistical analysis of nutrient intake based on food frequency questionnaires and food diaries. The code requires ``permira.test`` -function that is found in another file here.
 
 *muuttujat_analyysiin.txt*: This would be the data input file of nutrient intake. Due to small sample size and risk of identifying participants, we choose not to publish the original data files online.
 
-## mira_pathway_analysis.R - Code for pathway analysis
+## mira_pathway_analysis.r - Code for pathway analysis
 
 This file includes the code used in pathway analysis. All the required files to run this code are included in this project folder
 
