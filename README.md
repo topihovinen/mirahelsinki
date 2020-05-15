@@ -6,7 +6,7 @@ This page will contain R code used in statistical analyses and building the figu
 
 This is the main R-file used. It contains the statistical analysis of blood and urine samples and the code to create figures/ggplots. Please note, that some of the files required for running the code smoothly are missing here. Please contact the author or otherwise specified instance below if you wish to use these files:
 
-*HUSLAB Data final.txt* AND *MIRA Metabolomics final.txt*: Due to small sample size and risk of identifying participants, we choose not to publish the original data files online.
+*HUSLAB Data final.txt* AND *MIRA Metabolomics new.txt*: Due to small sample size and risk of identifying individual participants, we choose not to publish the original data files online.
 
 *thl_kasvukayrat.txt*: The original data of Finnish growth curves were provided for the scientific purposes of this study, and as we do not own the rights for this data, please contact THL (Terveyden ja Hyvinvoinnin Laitos) in order to gain permission for this data.
 
