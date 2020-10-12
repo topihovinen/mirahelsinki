@@ -412,11 +412,11 @@
                   "Total lithocholic acids", "Total deoxycholic acids", "Total ursodeoxycholic acids", "Vitamin A status",
                   "Urine creatinine", "Iodine in urine (adjusted to creatinine)", rep("", 5))
     
-    miraunits = c(rep("", 13), "nmol/l","nmol/l","nmol/l","µmol/l","mg/l","mmol/l","mmol/l","mmol/l","mmol/l","", "",
+    miraunits = c(rep("", 13), "nmol/l","nmol/l","nmol/l","Âµmol/l","mg/l","mmol/l","mmol/l","mmol/l","mmol/l","", "",
                   "*10^9/l","*10^12/l","g/l", "%", "fl","%","pg","g/l","*10^9/l","pmol/l","nmol/l","%",
-                  "mmol/l", "µg/l", "mg/l", "mg/kg", "RE (µmol/l)", "mg/l", "g/l", "µg/l",
-                  rep("µg/mg of total cholesterol",8), "mmol/l", rep("µmol/l",17), "", "", "", "", "µmol/l", "µmol/l",
-                  "", "", rep("µmol/l", 11), "", "", "", "", "", "", rep("µmol/l", 5), "", "mmol/l",
+                  "mmol/l", "Âµg/l", "mg/l", "mg/kg", "RE (Âµmol/l)", "mg/l", "g/l", "Âµg/l",
+                  rep("Âµg/mg of total cholesterol",8), "mmol/l", rep("Âµmol/l",17), "", "", "", "", "Âµmol/l", "Âµmol/l",
+                  "", "", rep("Âµmol/l", 11), "", "", "", "", "", "", rep("Âµmol/l", 5), "", "mmol/l",
                   "ug/l per mmol/l creatinine", rep("",5))
   }
   
